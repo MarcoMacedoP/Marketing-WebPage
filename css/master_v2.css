@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+h1,h2{
+  font-family: 'Open Sans', sans-serif;
+}
+p, ul,li{
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+
+}
+span{
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  margin: 0;
+}
+.front_page{
+  border: 1px solid orange;
+  height: -webkit-fill-available;
+}
+.nav_bar nav{
+  border: 1px solid red;
+  display: flex;
+  height: 3em;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 0 1.8% 0;
+
+}
+
+.nav_bar ul{
+  padding: 0px 7em 0px 0px;
+  border: 1px solid blue;
+  display: flex;
+  height: auto;
+  width: 19em;
+  margin-right: 3%;
+  box-sizing: border-box;
+}
+.nav_bar li{
+  border: 1px solid yellow;
+  padding: 2% 2em 2% 2%;
+
+}
+ .li_blog, .li_Nosotros{
+   margin-left: 5%;
+ }
+ .hero{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   text-transform:uppercase;
+   font-size: 3em;
+   letter-spacing: 1em;
+   font-weight: bold;
+ }
+ .hero h1{
+   font-size:150%;
+   margin-top: .30em;
+   margin-bottom: .30em;
+ }
+ .img_displayed{
+   border: 1px solid green;
+ }

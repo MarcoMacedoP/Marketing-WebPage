@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: rgba(255,128,0,1);/* Old Browsers*/
+  background: -moz-linear-gradient(top, rgba(255,128,0,1) 0%, rgba(154,127,43,1) 12%, rgba(106,127,64,1) 20%, rgba(59,127,84,1) 33%, rgba(56,121,80,1) 38%, rgba(49,106,70,1) 51%, rgba(44,94,62,1) 55%, rgba(16,32,22,1) 100%); /* FF3.6+*/
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,128,0,1)), color-stop(12%, rgba(154,127,43,1)), color-stop(20%, rgba(106,127,64,1)), color-stop(33%, rgba(59,127,84,1)), color-stop(38%, rgba(56,121,80,1)), color-stop(51%, rgba(49,106,70,1)), color-stop(55%, rgba(44,94,62,1)), color-stop(100%, rgba(16,32,22,1)));/* Chrome, Safari4+*/
+  background: -webkit-linear-gradient(top, rgba(255,128,0,1) 0%, rgba(154,127,43,1) 12%, rgba(106,127,64,1) 20%, rgba(59,127,84,1) 33%, rgba(56,121,80,1) 38%, rgba(49,106,70,1) 51%, rgba(44,94,62,1) 55%, rgba(16,32,22,1) 100%); /* Chrome10+,Safari5.1+*/
+  background: -o-linear-gradient(top, rgba(255,128,0,1) 0%, rgba(154,127,43,1) 12%, rgba(106,127,64,1) 20%, rgba(59,127,84,1) 33%, rgba(56,121,80,1) 38%, rgba(49,106,70,1) 51%, rgba(44,94,62,1) 55%, rgba(16,32,22,1) 100%); /* Opera 11.10+*/
+  background: -ms-linear-gradient(top, rgba(255,128,0,1) 0%, rgba(154,127,43,1) 12%, rgba(106,127,64,1) 20%, rgba(59,127,84,1) 33%, rgba(56,121,80,1) 38%, rgba(49,106,70,1) 51%, rgba(44,94,62,1) 55%, rgba(16,32,22,1) 100%); /* IE 10+*/
+  background: linear-gradient(to bottom, rgba(255,128,0,1) 0%, rgba(154,127,43,1) 12%, rgba(106,127,64,1) 20%, rgba(59,127,84,1) 33%, rgba(56,121,80,1) 38%, rgba(49,106,70,1) 51%, rgba(44,94,62,1) 55%, rgba(16,32,22,1) 100%);/* W3C*/
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8000', endColorstr='#102016', GradientType=0 );/* IE6-9*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+ul, menu, dir {
+    display: none;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+
+}
+.front_page{
+width: 100%;
+max-width: -webkit-fill-available;
+max-height: -webkit-fill-available;
+height: 100%;
+margin: auto;
+box-sizing: border-box;
+display: table;
+}
+
+.front_page::after {
+             content: "";
+             background-image: url(hero_background.jpg);
+             opacity: 0.26;
+             top: 0;
+             left: 0;
+             bottom: 0;
+             right: 0;
+             position: absolute;
+             z-index: -1;
+             background-position:center;
+             background-repeat: no-repeat;
+             background-size: cover;
+           }
+
+
+.nav_bar{
+  background-color: rgb(16,32,22);
+  color: rgba(246, 255, 250, 1);
+  opacity: .73;
+
+}
+
+.nav_bar nav{
+  opacity: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-left: 40px;
+}
+.nav_bar ul, li{
+  opacity: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+.nav_bar li{
+  opacity: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(246, 255, 250, .73);
+  border-radius: 16px;
+  padding: 6px 68px 6px 12px;
+  height: 31px;
+  width: 154px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin: 16px;
+}
+.nav_bar span{
+  opacity: inherit;
+  font-size: 25px;
+  font-style: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.hero{
+  font-size: 151px;
+  width: 100%;
+  max-width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+  }
+  .hero h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    text-transform: uppercase;
+    display: inherit;
+    font-size: 1em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    letter-spacing: .50em;
+    color: rgba(246, 255, 250, 1);
+
+}
+
+.img_displayed {
+  height: -webkit-fill-available;
+  display: block;
+  /*border: solid 2px yellow;*/
+
+}
+.img_displayed img{
+  /*border: solid  2px red;*/
+
+  margin-bottom: .50em;
+}
+.img_displayed a{
+  /*border: solid 2px blue;*/
+  width: 37px;
+      height: -webkit-fill-available;
+}
